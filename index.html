@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Roam2Capture Comments — Privacidad y Términos</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #1a1a1a;
+    --muted: #595959;
+    --accent: #0a5c36;
+    --border: #e5e5e5;
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #111315;
+      --text: #f2f2f2;
+      --muted: #a8a8a8;
+      --accent: #6fd3a0;
+      --border: #2a2d30;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #111315;
+    --text: #f2f2f2;
+    --muted: #a8a8a8;
+    --accent: #6fd3a0;
+    --border: #2a2d30;
+  }
+  html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 20px 80px;
+  }
+  h1 {
+    font-size: 1.6rem;
+    margin-bottom: 4px;
+  }
+  .updated {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin-bottom: 40px;
+  }
+  h2 {
+    font-size: 1.15rem;
+    margin-top: 40px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 8px;
+  }
+  p, li { color: var(--text); }
+  ul { padding-left: 20px; }
+  .section { margin-bottom: 8px; }
+  nav {
+    margin-bottom: 32px;
+    font-size: 0.95rem;
+  }
+  nav a {
+    color: var(--accent);
+    text-decoration: none;
+    margin-right: 16px;
+  }
+  footer {
+    margin-top: 60px;
+    color: var(--muted);
+    font-size: 0.85rem;
+    border-top: 1px solid var(--border);
+    padding-top: 20px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Roam2Capture Comments</h1>
+  <p class="updated">Última actualización: octubre de 2026</p>
+
+  <nav>
+    <a href="#privacidad">Política de Privacidad</a>
+    <a href="#terminos">Términos de Servicio</a>
+  </nav>
+
+  <section id="privacidad">
+    <h2>Política de Privacidad</h2>
+    <p>Esta aplicación ("Roam2Capture Comments") es una herramienta de uso estrictamente personal, creada y operada por el titular de la cuenta de Instagram @roam2capture, para asistir en la gestión de los comentarios de sus propias publicaciones.</p>
+
+    <p><strong>Qué datos se tratan:</strong></p>
+    <ul>
+      <li>Comentarios públicos recibidos en las publicaciones de @roam2capture (texto, nombre de usuario del autor, fecha).</li>
+      <li>Respuestas previamente escritas por el titular de la cuenta a esos comentarios.</li>
+    </ul>
+
+    <p><strong>Para qué se usan:</strong></p>
+    <ul>
+      <li>Generar sugerencias de respuesta a comentarios, que el titular de la cuenta revisa y aprueba manualmente antes de publicarlas.</li>
+      <li>Ningún dato se vende ni se utiliza con fines publicitarios, y solo se comparte con el proveedor de servicios indicado más abajo, para el fin descrito.</li>
+    </ul>
+
+    <p><strong>Proveedor de servicios (inteligencia artificial):</strong> para redactar las sugerencias de respuesta, el texto de cada comentario (sin tokens de acceso ni credenciales) se envía a la API de Anthropic, que actúa como proveedor de servicios del titular: procesa la información únicamente para generar la sugerencia solicitada y, conforme a sus condiciones comerciales, no la utiliza por defecto para entrenar sus modelos. Ningún dato se envía a ningún otro tercero.</p>
+
+    <p><strong>Dónde se almacenan:</strong> los datos se guardan localmente en el ordenador del titular de la cuenta. Fuera de ese equipo solo se procesan, de forma temporal, en la API de Anthropic para generar las sugerencias.</p>
+
+    <p><strong>Contacto:</strong> para cualquier consulta sobre esta política, puede escribirse a través de los canales de contacto públicos de @roam2capture en Instagram.</p>
+  </section>
+
+  <section id="terminos">
+    <h2>Términos de Servicio</h2>
+    <p>Esta aplicación es una herramienta interna de uso personal y no está disponible públicamente para que terceros la instalen o la usen con otras cuentas de Instagram.</p>
+
+    <ul>
+      <li>La aplicación se conecta exclusivamente a la cuenta de Instagram de su propio titular, mediante las credenciales autorizadas por éste a través de Meta.</li>
+      <li>El titular es el único responsable del uso de la aplicación y de las respuestas que decide publicar.</li>
+      <li>La aplicación no garantiza disponibilidad continua ni ausencia de errores, al tratarse de una herramienta personal en desarrollo.</li>
+      <li>El uso de la aplicación está sujeto, en todo momento, a los Términos de Uso y Políticas de la Plataforma de Meta.</li>
+    </ul>
+  </section>
+
+  <footer>
+    Roam2Capture Comments — herramienta interna de uso personal.
+  </footer>
+</div>
+</body>
+</html>
